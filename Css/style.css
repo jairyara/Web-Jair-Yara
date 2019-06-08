@@ -7,6 +7,7 @@ body{
 	background: #FFFFFA;
 }
 
+/* Header */
 header{
 	width: 100%;
 }
@@ -107,7 +108,6 @@ section {
 		font-size: 25px;
 	}
 	
-
 	header {
 		width: 100%;
 		position: fixed;
