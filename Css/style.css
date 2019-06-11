@@ -113,6 +113,12 @@ section {
         position: fixed;
     }
 
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
     .jy {
         display: none;
     }
@@ -140,5 +146,11 @@ h2, h3, h6 {
 }
 
 input {
-    width: 200px;
+    width: 300px;
 }
+/* bootstrap css
+.card {
+    margin: 30px auto 30px
+}
+
+*/
