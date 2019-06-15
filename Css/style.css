@@ -23,7 +23,7 @@ header nav {
     display: none;
 }
 
-.name-jy, #name-hero h3 {
+.name-jy {
     font-family: 'Courgette', cursive;
     font-size: 15px;
     padding: 15px 60px 15px 60px;
@@ -34,12 +34,12 @@ header nav {
     background: #1d2323
 }
 
-header nav ul {
+header nav ul, footer nav ul {
     overflow: hidden;
     list-style: none;
 }
 
-header nav ul li {
+header nav ul li, footer nav ul li {
     float: left;
 }
 
@@ -178,8 +178,7 @@ input {
 
 #contact, #portfolio, #news {
     border: 1px solid gray;
-    margin: 0px 30px 10px;
-    border-radius: 10px;
+    margin: 0px auto;
     padding: 10px;
     background-color: #ffffff;
     box-shadow: 0px 0px 5px 0px black;
@@ -199,8 +198,8 @@ input {
     border-right: 1px solid gray;
     border-left: 1px solid gray;
     border-bottom: 1px solid gray;
-    margin: 0 30px 10px;
-    border-radius: 10px;
+    margin: 0;
+
 }
 
 .footer {
@@ -251,4 +250,24 @@ button:hover{
     text-decoration: none;
     padding: 5px;
     margin: 5px auto;
+}
+
+footer li {
+    padding: 5px 10px;
+}
+
+#name-hero .name-hero {
+    font-family: 'Courgette', cursive;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+footer nav ul li span {
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
 }
