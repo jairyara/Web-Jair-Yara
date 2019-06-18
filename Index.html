@@ -31,30 +31,39 @@
     </nav>
 </header>
 
-<section class="container card" id="hero">
+<section id="hero">
     <h1 id="start" class="hero-title">Hola! <br>Soy Jair Yara</h1>
     <figure class="me-image">
         <img class="me" width="200" height="200"
              src="https://pbs.twimg.com/profile_images/1129894287997644801/7XelIOHJ_400x400.png" alt="Jair Yara">
     </figure>
-    <p class="description-me"> Soy Constructor y Gestor en Arquitectura egresado de la Universidad Colegio
-        Mayor de Cundinamarca. Soy un amante de la tecnología y los libros. En este sitio encontrarás temas
-        relacionados con la construcción, nuevas tecnologías, startups y libros que leo</p>
+    <p class="description-me"> Soy constructor de profesión, apasionado por la tecnología y el código.
+        Escribo sobre temas de tecnología, startups, sobre los libros que leo y temas de
+        actualidad de la construcción</p>
 </section>
 
-<section class="container card" id="portfolio">
+
+<section id="portfolio">
     <h2 class="portfolio">Portafolio (Proyectos Destacados) </h2>
     <article class="portfolio-resume">
-        <h3 class="titles">Calculadora FIC</h3>
-        <h6 class="language-applied">Java - Android</h6>
-        <p class="description-portfolio">
-            <small><strong>Puedes verlo en:</strong> play.google.com/calc-fic</small>
-        </p>
-        <p>Aplicación móvil para Android programada en Java. Calculadora FIC permite determinar los valores
-            por parte de los contratistas de la construcción por concepto del impuesto FIC (Fondo de la Industria
-            de la Construcción) al finalizar la ejecución de un contrato</p>
+        <div class="project-details">
+            <h3 class="titles">Calculadora FIC</h3>
+            <h6 class="language-applied">Java - Android</h6>
+            <p class="direction-portfolio">
+                <small><strong>Puedes verlo en:</strong> play.google.com/calc-fic</small>
+            </p>
+            <p class="description-portfolio">Aplicación móvil para Android programada en Java. Calculadora FIC permite
+                determinar los valores
+                por parte de los contratistas de la construcción por concepto del impuesto FIC (Fondo de la Industria
+                de la Construcción) al finalizar la ejecución de un contrato</p>
+        </div>
+        <figure class="project-image">
+         <img src="images/project.jpg" width="400px" height="300px"
+                 alt="project">
+        </figure>
     </article>
 </section>
+
 <section class="container card" id="news">
     <h2 class="blog">Blog </h2>
     <article class="blog-news">
@@ -72,20 +81,24 @@
 </section>
 <section class="container card" id="contact">
     <div class="contact-me">
-    <h3 class="contact-form">Contáctame</h3>
-    <form action="/suscripción/">
-        <div >
-            <label for="name">Ingresa tu nombre</label>
-            <br><input type="text" placeholder="E.g. Valentine Michael Smith" id="name">
-        </div>
-        <div >
-            <label for="email">Ingresa tu E-mail</label>
-            <br><input type="text" placeholder="E.g. michaelsmith@email.com" id="email">
-        </div>
+        <h3 class="contact-form">Contáctame</h3>
+        <form action="/suscripción/">
+            <div>
+                <label for="name">Ingresa tu nombre</label>
+                <br><input type="text" placeholder="E.g. Valentine Michael Smith" id="name" required>
+            </div>
+            <div>
+                <label for="email">Ingresa tu E-mail</label>
+                <br><input type="text" placeholder="E.g. michaelsmith@email.com" id="email" required>
+            </div>
+            <div>
+                <label for="message">Escribe tu mensaje</label>
+                    <br><input type="text" placeholder="E.g. Hola..." id="message" required>
+            </div>
 
-        <button>Enviar</button>
+            <button>Enviar</button>
 
-    </form>
+        </form>
     </div>
 
 </section>
@@ -108,7 +121,7 @@
     </section>
 
     <Section>
-    <p class="copy">Jair Yara &copy 2019</p>
+        <p class="copy">Jair Yara &copy 2019</p>
     </Section>
 
     <section>

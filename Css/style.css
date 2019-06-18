@@ -64,6 +64,162 @@ section {
     padding: 20px;
 }
 
+/* Hero */
+
+.hero-title {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    padding: 5px;
+}
+
+.me {
+    display: block;
+    margin: 10px auto;
+    border-radius: 100px;
+    box-shadow: 0px 0px 5px 0px;
+}
+#hero {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 0.5px solid gray;
+    margin: 0;
+    padding: 20px 140px 40px;
+    background-color: #ffffff;
+}
+
+/* Portfolio, contact, blog general aspects*/
+
+#contact, #portfolio, #news {
+    border: 0.5px solid gray;
+    margin: 0px auto;
+    padding: 40px 140px;
+    background-color: #ffffff;
+    margin: 2px auto;
+}
+
+p, label, #email, #name, #message {
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+
+h2, h3, h6 {
+    font-family: 'Baloo Tamma', cursive;
+}
+
+input {
+    width: 300px;
+}
+
+/* Contact form */
+
+button {
+    border-radius: 10px;
+    width: 300px;
+    max-width: 300px;
+    background-color: #3F4A57;
+    color: #fff;
+    font-family: 'Baloo Tamma', cursive;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+button:hover{
+    background: #3c4f65;
+}
+
+#name, #email {
+    border-radius: 5px;
+    width: 300px;
+    max-width: 300px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+#message {
+    border-radius: 5px;
+    width: 300px;
+    max-width: 300px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+
+.contact-me {
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid gray;
+    max-width: 400px;
+}
+
+/* Footer */
+.footer {
+    border-top: 1px solid gray;
+    width: auto;
+    color: #fff;
+    max-width: 10800px;
+    margin: 0px auto;
+    background: #1d2323;
+    padding: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.love, .copy, section {
+    padding: 2px;
+    display: block;
+    font-family: 'Baloo Tamma', cursive;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.love-oneago {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.love, .love-oneago, .copy {
+    text-align: center;
+    line-height: 7px;
+}
+
+
+#name-hero .name-hero {
+    font-family: 'Courgette', cursive;
+    font-size: 15px;
+    padding: 15px 60px;
+    text-decoration: none;
+}
+
+footer nav ul li a {
+    color: #fff;
+    padding: 15px;
+    display: block;
+    font-family: 'Baloo Tamma', cursive;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer nav ul li span {
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* Header responsive */
+
 @media screen and (max-width: 800px) {
     header nav {
         width: 100%;
@@ -146,143 +302,6 @@ section {
         display: none;
     }
 }
-
-/* Body */
-
-.hero-title {
-    font-family: 'Courgette', cursive;
-    text-align: center;
-    padding: 5px;
-}
-
-#hero {
-    padding: 20px 140px 40px;
-    background-color: #ffffff;
-}
-
-
-.me {
-    display: block;
-    margin: 10px auto;
-    border-radius: 100px;
-    box-shadow: 0px 0px 5px 0px;
-}
-
-p, label, #email, #name {
-    font-family: 'Quicksand', sans-serif;
-    text-align: justify;
-}
-
-h2, h3, h6 {
-    font-family: 'Baloo Tamma', cursive;
-}
-
-input {
-    width: 300px;
-}
-
-.love, .copy, section {
-    padding: 2px;
-    display: block;
-    font-family: 'Baloo Tamma', cursive;
-    text-decoration: none;
-    font-size: 15px;
-}
-
-#contact, #portfolio, #news {
-    border: 0.5px solid gray;
-    margin: 0px auto;
-    padding: 40px 140px;
-    background-color: #ffffff;
-    margin: 2px auto;
-}
-
-.contact-me {
-    text-align: center;
-    display: block;
-    margin: auto;
-    border-radius: 20px;
-    border: 1px solid gray;
-    max-width: 400px;
-}
-
-#hero {
-    border-right: 1px solid gray;
-    border-left: 1px solid gray;
-    border-bottom: 0.5px solid gray;
-    margin: 0;
-}
-
-.footer {
-    border-top: 1px solid gray;
-    width: auto;
-    color: #fff;
-    max-width: 10800px;
-    margin: 0px auto;
-    background: #1d2323;
-    padding: 10px;
-}
-
-.red {
-    color: red;
-}
-
-.love-oneago {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.love, .love-oneago, .copy {
-    text-align: center;
-    line-height: 7px;
-}
-
-button {
-    border-radius: 10px;
-    width: 300px;
-    max-width: 300px;
-    background-color: #3F4A57;
-    color: #fff;
-    font-family: 'Baloo Tamma', cursive;
-    text-decoration: none;
-    padding: 5px;
-    margin: 5px auto;
-}
-
-button:hover{
-    background: #3c4f65;
-}
-
-#name, #email {
-    border-radius: 5px;
-    width: 300px;
-    max-width: 300px;
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
-    padding: 5px;
-    margin: 5px auto;
-}
-
-footer li {
-    padding: 5px 10px;
-}
-
-#name-hero .name-hero {
-    font-family: 'Courgette', cursive;
-    font-size: 15px;
-    padding: 5px 10px;
-    text-decoration: none;
-}
-
-footer nav ul li span {
-    margin-right: 10px;
-}
-
-footer nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 
 
 
